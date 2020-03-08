@@ -42,7 +42,6 @@ function doPost(e) {
 }
 
 //chromeからきたgetをうけ実行、ユニークな配列を返す
-//http通信部分を作る
 function getSpreadSheet(){
     const spreadsheet = SpreadsheetApp.openById(key);
     const sheet = spreadsheet.getActiveSheet();
