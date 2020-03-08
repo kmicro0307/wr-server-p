@@ -56,6 +56,8 @@ function myFunction() {
       var output = ContentService.createTextOutput();
       output.setMimeType(ContentService.MimeType.JSON);
       output.setContent(JSON.stringify({ success: true}));
+      output.setContent(JSON.stringify({ d: date}));
+      output.setContent(JSON.stringify({ w: tet}));
       return output;
     }
 

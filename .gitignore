@@ -17,4 +17,4 @@ dist/
 #key url
 src/key.js
 
-.clasp.json
+.clasp.json.json

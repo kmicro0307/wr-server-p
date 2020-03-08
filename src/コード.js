@@ -121,7 +121,7 @@ function doPostTest() {
  doPost(e);
 }
 
-function doPost(e) {
+function doPost_dev(e) {
 //https://script.google.com/macros/s/AKfycbzxbdMdOHZ0q3dk4FvdQzEfEbp5Ps5caJOtlIVRx6jjYYmPjdM/exec
   Logger.log(e);
   var params = JSON.parse(e.postData.getDataAsString()); 
@@ -146,7 +146,7 @@ function doPost(e) {
   return output;
 }
 
-function doPost2() {
+function doPost2_dev() {
 //https://script.google.com/macros/s/AKfycbzxbdMdOHZ0q3dk4FvdQzEfEbp5Ps5caJOtlIVRx6jjYYmPjdM/exec
   
   text = 'unko'
